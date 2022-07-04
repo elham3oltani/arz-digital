@@ -1,0 +1,35 @@
+.container {
+    margin: 50px auto;
+    border: 1px solid silver;
+    border-radius: 10px;
+    width: fit-content;
+    background-color: #f6f6f6;
+    }
+
+
+    .searchBox{
+        margin-top: 4rem;
+        width: 300px;
+        padding: 0.3rem;
+        outline: none;
+        border-radius: 5px;
+        border: 1px solid silver;
+        height: 20px;
+        padding: 5px;
+        background-color: #f6f6f6;
+        transition: all 0.2s ease;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .input:focus {
+        outline: none;
+        border-color: white;
+        background: white;
+        box-shadow: rgba(74, 74, 74, 0.24) 0px 3px 8px;
+      }
+      
+      @media(min-width:425px){
+        .searchBox{
+           text-align: center;
+        }
+      }
